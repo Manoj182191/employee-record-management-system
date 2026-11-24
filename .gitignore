@@ -1,0 +1,61 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+backend/database/*.sqlite3
+backend/database/*.sqlite3-shm
+backend/database/*.sqlite3-wal
+backend/database/backups/
+backend/private_storage/
+**/database/backups/
+**/private_storage/
+**/uploads/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+database/backups/
+**/backups/
+
+# Private employee documents
+backend/private_storage/
+private_storage/
+uploads/
+
+# Logs and temporary files
+*.log
